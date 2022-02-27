@@ -14,6 +14,10 @@ app.get('/api2', (req, res) => {
     res.send("API-2");
 })
 
+app.get('/api3', (req, res) => {
+    res.send("API-3");
+})
+
 var server = app.listen(port, () => {
     console.log(server.address().address);
 })
